@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Stellar Account Viewer</title>
+        <script src="https://unpkg.com/@albedo-link/intent/lib/albedo.intent.js"></script>
+        <script src="account_viewer.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="content">
+            <div id="header">
+                Stellar Account Viewer
+            </div>
+            <div id="Albedo" class="login">
+                <button type="button" onclick="loginAlbedo()">Albedo</button>
+            </div>
+            <div id="Rabet" class="login">
+                <button type="button" onclick="loginRabet()">Rabet</button>
+            </div>
+            <div id="logout" class="login">
+                <br><button type="button" onclick="logout()">Logout</button>
+            </div>
+            <div id="account">
+                <div id="pubKey">
+                </div>
+                <div id="creationDate" class="creation">
+                </div>
+                <div id="creationAccount" class="creation">
+                </div>
+                <div id="balance">
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
